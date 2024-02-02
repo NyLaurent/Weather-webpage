@@ -1,6 +1,6 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
 }
 
 /* .search{
@@ -32,172 +32,163 @@
     
     
 } */
-.sunny{
-    position: sticky;
-    width: 300px;
-    height: 660px;
-    margin: 30px;
-    padding: 34px;
-    border: 2px solid;
-    border-color: beige;
-    
-    background-color: beige;
-    
-    
-}
-.Wind{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    top: 0;
-    right: 880px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
-    }
-.Humidity{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    top: 0;
-    right: 350px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.sunny {
+  position: sticky;
+  width: 300px;
+  height: 660px;
+  margin: 30px;
+  padding: 34px;
+  border: 2px solid;
+  border-color: blue;
 
+  background-color: beige;
 }
-.feel{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    top: 0;
-    right: 620px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.Wind {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  top: 0;
+  right: 880px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.index{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    bottom: 300px;
-    right: 880px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
-
+.Humidity {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  top: 0;
+  right: 350px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.Pressure{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    bottom: 300px;
-    right: 620px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.feel {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  top: 0;
+  right: 620px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.rain{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    bottom: 300px;
-    right: 350px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.index {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  bottom: 300px;
+  right: 880px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.Temperature{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    bottom: 60px;
-    right: 880px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.Pressure {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  bottom: 300px;
+  right: 620px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.Sun{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    bottom: 60px;
-    right: 620px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.rain {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  bottom: 300px;
+  right: 350px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.Moon{
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    padding: 34px;
-    position: fixed;
-    bottom: 60px;
-    right: 350px;
-    justify-content: space-between;
-    border-radius: 30px;
-    border: 2px solid;
-    background-color: lightblue;
-    border: lightblue;
+.Temperature {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  bottom: 60px;
+  right: 880px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
 }
-.conditions{
-    width: 810px;
-    height: 728px;
-    border: 2px solid;
-    position: fixed;
-    right: 319px;;
-    bottom: 30px;
-    border-color: gainsboro;
-    background-color: lightgoldenrodyellow;
-
+.Sun {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  bottom: 60px;
+  right: 620px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
+}
+.Moon {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 34px;
+  position: fixed;
+  bottom: 60px;
+  right: 350px;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid;
+  background-color: lightblue;
+  border: lightblue;
+}
+.conditions {
+  width: 810px;
+  height: 728px;
+  border: 2px solid;
+  position: fixed;
+  right: 319px;
+  bottom: 30px;
+  border-color: gainsboro;
+  background-color: lightgoldenrodyellow;
 }
 
-  
-    
-
-.page{
-    text-align: center;
-    font-size: 20px;
-    position:fixed;
-    bottom: 10px;
+.page {
+  text-align: center;
+  font-size: 20px;
+  position: fixed;
+  bottom: 10px;
 }
-.image{
-    position: fixed;
-    bottom: 330px;
-    
+.image {
+  position: fixed;
+  bottom: 330px;
 }
 /* .search{
 position: fixed;
@@ -209,16 +200,13 @@ border: 5px black;
 border-radius: 30px;
 
 } */
-.input{
-   
-    border: 2px solid;
-    border-radius: 30px;
-    width: 250px;
-    
+.input {
+  border: 2px solid;
+  border-radius: 30px;
+  width: 250px;
 }
-.button{
-    position: fixed;
-    bottom: 689px;
-    left: 230px;
-
+.button {
+  position: fixed;
+  bottom: 689px;
+  left: 230px;
 }
